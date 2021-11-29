@@ -10,7 +10,7 @@ https://www.figma.com/file/b4zHmXG2XvWudeQ6Hg73Cx/Detailed-Design?node-id=0%3A1
 
 ### IDE
 
-VSCode 1.62.3 (Universal)
+VSCode
 
 Extensions:
 

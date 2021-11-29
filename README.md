@@ -1,9 +1,5 @@
 # project_Merida
 
-### Github
-
-https://github.com/AsherTang/project_Merida
-
 
 
 ### Figma

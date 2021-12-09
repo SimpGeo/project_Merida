@@ -1,0 +1,228 @@
+html{
+    font-family: "Roboto Medium","Roboto Thin","Roboto Light", sans-serif;
+}
+
+.mbutton{
+    background-color: #d2b2ff;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 10px 0px gray;
+    color: #685990;
+    /*line-height: 100px;*/
+    text-align: center;
+    text-decoration: none;
+}
+.mbutton:hover{
+    background-color: #bd90ff;
+    box-shadow: 2px 4px 15px 1px #cacaca;
+}
+.mbutton:active{
+    background-color: #e5caff;
+    box-shadow: 1px 2px 10px 0px gray;
+}
+
+.nav-item{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+body {
+    margin: 0;
+}
+
+
+.pg-icon {
+    width: 128px;
+    height: 128px;
+    /*background-color: rebeccapurple;*/
+    background: scroll url("../image/icon.png") center / 128px 128px no-repeat;
+    border-radius: 64px;
+}
+
+.nav {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+
+.nav > a {
+    flex-basis: 100px;
+    /*background-color: green;*/
+    text-align: center;
+    padding: 0.5rem 0.8rem;
+    color: white;
+}
+
+.pg-header {
+    display: flex;
+    background-color: #ffb1af;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.pg-header-menu {
+    flex-grow: 1;
+    padding: 0.5rem 5rem;
+    box-sizing: border-box;
+}
+
+.pg-menu-btn {
+    display: none;
+}
+
+.sm {
+    display: none;
+}
+
+.btn-close {
+    width: 32px;
+    height: 32px;
+    background: scroll url("../image/close-circle.svg") 50% 50%/ 32px 32px no-repeat;
+}
+
+footer {
+    background-color: #111111;
+    color: #f3f3f3;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    min-height: 32px;
+}
+
+@media screen and (max-width: 960px) {
+    .pg-icon {
+
+        /*background-color: rebeccapurple;*/
+        background: scroll url("../image/icon.png") center / 64px 64px no-repeat;
+        border-radius: 64px;
+    }
+    .sm {
+        display: block;
+    }
+
+    .pg-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 32px;
+    }
+
+    .pg-header {
+        padding: 0.5rem 1rem;
+    }
+
+
+    .pg-menu-btn {
+        display: block;
+        float: right;
+        width: 64px;
+        height: 64px;
+        background: scroll url("../image/menu.svg") 100% 50% / 32px 32px no-repeat;
+    }
+
+    .nav {
+        display: block;
+        border: none;
+        position: absolute;
+        right: calc(-0.5rem - 216px);
+        top: calc(-0.5rem);
+        min-width: 200px;
+        transition: right 1s ease-in-out;
+        background: #f27f7c;
+        padding: 4px 8px;
+    }
+    .mbutton{
+        box-sizing: border-box;
+    }
+
+    .nav .nav-item{
+        margin: 0 0 0.5rem 0;
+    }
+    .pg-header-menu {
+        /* padding-right: 0;
+         padding-left: 0;*/
+        padding: 0;
+    }
+
+    .display_show {
+        display: block;
+    }
+
+
+    .nav > div:first-of-type {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+
+    .nav > div:last-of-type {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        position: static;
+        margin-top: 5rem;
+    }
+
+    .nav-out {
+        right: calc(-0.5rem - 216px);
+    }
+
+    .nav-in {
+        right: 0px;
+    }
+}
+
+.section {
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+
+.section-name {
+    font-weight: bold;
+    padding: 0.5rem 5rem;
+}
+
+
+.hotpot-area {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 32px 16px;
+
+    justify-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+.hotpot > img {
+    width: 100%;
+}
+
+.hotpot {
+    margin: 0;
+    display: block;
+    background-color: rgb(242, 242, 242);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.hotpot > div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.hotpot > div:nth-of-type(1) > *:first-child {
+    font-weight: bold;
+}
+
+.hotpot > div:nth-of-type(2) {
+    font-size: 0.8rem;
+    text-align: justify;
+    /*text-align-last: justify;*/
+}
+

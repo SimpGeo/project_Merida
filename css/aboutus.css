@@ -1,0 +1,250 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: #E2B36C;
+}
+
+.header img {
+    float: left;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header .nav {
+    float: left;
+    margin-left: 100px;
+}
+.header .nav span {
+    margin-left: 20px;
+    width: 100px;
+}
+.header .nav span a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .menu {
+    display: none;
+}
+
+h1 {
+    max-width: 1200px;
+    margin: 50px auto 20px;
+}
+
+.introduction {
+    max-width: 1200px;
+    min-height: 400px;
+    background: #eee;
+    margin: 10px auto;
+}
+
+.introduction .picture {
+    width: 49%;
+    height: 400px;
+    float: left;
+}
+
+.introduction .picture img {
+    width: 100%;
+    height: 400px;
+}
+
+.introduction .text {
+    float: right;
+    width: 49%;
+    height: 400px;
+}
+
+.chef {
+    max-width: 1200px;
+    height: 400px;
+    background: #eee;
+    margin: 10px auto 0;
+}
+
+.chef .picture {
+    width: 49%;
+    height: 400px;
+    float: right;
+}
+
+.chef .picture img {
+    width: 100%;
+    height: 400px;
+}
+
+.chef .text {
+    padding-top: 100px;
+    float: left;
+    width: 49%;
+}
+
+.join {
+    max-width: 1200px;
+    height: 400px;
+    background: #eee;
+    margin: 0px auto;
+}
+
+.join .picture {
+    width: 49%;
+    height: 400px;
+    float: left;
+}
+
+.join .picture img {
+    width: 100%;
+    height: 400px;
+}
+
+.join .text {
+    float: right;
+    width: 49%;
+}
+
+.map {
+    max-width: 1200px;
+    background: #eee;
+    margin: 0px auto;
+}
+
+.map .picture {
+    width: 100%;
+    height: 400px;
+}
+
+.map .picture img {
+    width: 100%;
+    height: 400px;
+}
+
+.map .text {
+    width: 100%;
+}
+
+.appearance {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.appearance .picture1 {
+    width: 49%;
+    float: left;
+}
+
+.appearance .picture1 img {
+    width: 100%;
+}
+
+.appearance .picture2 {
+    width: 49%;
+    float: right;
+}
+
+.appearance .picture2 img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: #E2B36C;
+}
+
+footer .inner {
+    max-width: 1200px;
+    margin: 10px auto 0;
+}
+
+.icon-menu {
+	display: inline-block;
+	width: 30px; 
+    height: 5px;
+	padding: 5px 0;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	background-color: currentColor;
+	background-clip: content-box;
+}
+
+
+@media screen and (max-width: 960px) {
+    .header .nav {
+        display: none;
+    }
+
+    .header .menu {
+        float: right;
+        margin-right: 20px;
+        display: inline;
+        margin-top: 30px;
+        color: #fff;
+    }
+
+    .introduction .picture {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .introduction .text {
+        width: 100%;
+    }
+
+    .chef .picture {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .chef .text {
+        display:none;
+    }
+
+    .join .picture {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .join .text {
+        display:none;
+    }
+
+    .map {
+        overflow: hidden;
+    }
+
+    .map .picture {
+        margin-bottom: 10px;
+        width: 49%;
+        min-height: auto;
+        float: left;
+    }
+
+    .map .text {
+        width: 49%;
+        float: right;
+    }
+
+    .sub {
+        display: none;
+    }
+
+    .appearance {
+        display: none;
+    }
+
+    .map .picture img {
+        height: auto;
+    }
+
+    footer .inner {
+        text-align: center;
+    }
+}

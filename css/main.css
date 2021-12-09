@@ -1,0 +1,11 @@
+.gallery-img {
+    width: 300px;
+}
+
+.overlist {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    list-style: none;
+}

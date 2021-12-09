@@ -4,13 +4,15 @@ Chaoxin Yang: aboutus.css; aboutUs.html
 Shixi Wu: contactUs.css; contactUs.html
 Liyang Wan: combo.css, combo.html
 Jiaxiong Yao: gallery.html online-order.html
-Erxiao Tang: 
+Erxiao Tang: gallery.css and all headers and footers' unify.
 
+
+
+Final version of project files were collected, arranged and modified by Jiaxiong Yao and Erxiao Tang.
 
 
 ### Figma
 https://www.figma.com/file/b4zHmXG2XvWudeQ6Hg73Cx/Detailed-Design?node-id=0%3A1
-
 
 
 ### IDE

@@ -26,3 +26,8 @@ Extensions:
 Check the task board here.
 
 https://www.notion.so/ssaitex/Group-Project-8979453c36b742fe8979408577b53624
+
+
+### normalization file
+
+Normalize reset stylesheet, by Nicolas Gallagher. URL: https://necolas.github.io/normalize.css/8.0.1/normalize.css; Github URL: https://github.com/necolas/normalize.css/; Date accessed: 8 Dec 2021
